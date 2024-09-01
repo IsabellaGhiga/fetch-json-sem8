@@ -24,7 +24,7 @@ fetch(DATA_URL)
     if (response.ok) {
       return response.json();
     } else {
-      throw new Error('Erro al cargar JSON');
+      throw new Error('Error al cargar JSON');
     }
   })
   .then(function (data) {
